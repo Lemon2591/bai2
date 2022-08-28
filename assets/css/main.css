@@ -1,0 +1,32 @@
+.week-title {
+    position: relative;
+    margin-top: 50px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tables {
+    position: absolute;
+    width: 500px;
+    top: 85px;
+    font-size: 16px;
+}
+
+.week-title>div>p {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 2px 20px;
+    background-color: rgb(125, 208, 125);
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+.t2,
+.t3,
+.t4 {
+    display: none;
+    left: 0;
+}
